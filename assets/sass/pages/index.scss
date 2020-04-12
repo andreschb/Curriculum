@@ -1,0 +1,36 @@
+.sidebar{
+    background-color: #254558 !important;
+    height: 100%;
+    display: block;
+    .logo{
+        width: 130px;
+        border-radius: 50%;
+    }
+    .nav-link{
+        color: #ffffff !important;
+    }
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px)  {
+       width: 150px;
+    }
+}
+.container{
+    @media only screen and (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.main{
+    .fecha{
+        float: right;
+    }
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px){
+        padding-left: 60px !important;
+    }
+    @media only screen and (max-width: 768px) {
+        padding: 0px 30px;
+    }
+}

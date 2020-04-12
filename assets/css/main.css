@@ -1,0 +1,35 @@
+body {
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-size: 18px;
+  font-weight: bold; }
+
+.sidebar {
+  background-color: #254558 !important;
+  height: 100%;
+  display: block; }
+  .sidebar .logo {
+    width: 130px;
+    border-radius: 50%; }
+  .sidebar .nav-link {
+    color: #ffffff !important; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .sidebar {
+      width: 150px; } }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
+.main .fecha {
+  float: right; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main {
+    padding-left: 60px !important; } }
+
+@media only screen and (max-width: 768px) {
+  .main {
+    padding: 0px 30px; } }
